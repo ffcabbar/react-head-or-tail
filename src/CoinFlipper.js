@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Coin from './Coin';
 import './CoinFlipper.css';
+import alertify from "alertifyjs";
 
 class CoinFlipper extends Component {
   constructor(props){
@@ -27,6 +28,9 @@ class CoinFlipper extends Component {
     });
 
     setTimeout(() => this.setState({donuyor: false}), 1000);
+
+    alertify.success(`${this.state.side} geldi!`);
+
   };
 
   render(){
