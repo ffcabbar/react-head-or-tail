@@ -18,18 +18,22 @@ class CoinFlipper extends Component {
   handleClick = () => {
     const num = Math.floor(Math.random() * 2);
     console.log(`Random sayı: ${num}`);     // Değeri kontrol ediyoruz.
-    
+
     this.setState({
       side: num === 0 ? "yazi" : "tura",
       donuyor: true,
       turnCount: this.state.turnCount + 1,
-      headCount: this.state.side === "tura" ? this.state.headCount + 1 : this.state.headCount,
-      tailCount: this.state.side === "yazi" ? this.state.tailCount + 1 : this.state.tailCount,
+    
+    }, () => {
+      this.setState({
+        headCount: this.state.side === "tura" ? this.state.headCount + 1 : this.state.headCount,
+        tailCount: this.state.side === "yazi" ? this.state.tailCount + 1 : this.state.tailCount,
+      }, () => {
+        alertify.success(`${this.state.side} geldi!`); 
+      })
     });
 
     setTimeout(() => this.setState({donuyor: false}), 1000);
-
-    alertify.success(`${this.state.side} geldi!`);
 
   };
 
