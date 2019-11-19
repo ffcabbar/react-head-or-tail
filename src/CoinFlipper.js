@@ -17,7 +17,6 @@ class CoinFlipper extends Component {
   }
   handleClick = () => {
     const num = Math.floor(Math.random() * 2);
-    console.log(`Random sayı: ${num}`);     // Değeri kontrol ediyoruz.
 
     this.setState({
       side: num === 0 ? "yazi" : "tura",
@@ -30,6 +29,8 @@ class CoinFlipper extends Component {
         tailCount: this.state.side === "yazi" ? this.state.tailCount + 1 : this.state.tailCount,
       }, () => {
         alertify.success(`${this.state.side} geldi!`); 
+        console.log("Tura sayisi:" + this.state.headCount);
+        console.log("Yazi sayisi:" + this.state.tailCount);
       })
     });
 
