@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-head-or-tail/static/css/main.6f842b94.chunk.css",
+    "main.js": "/react-head-or-tail/static/js/main.ebb3465e.chunk.js",
+    "main.js.map": "/react-head-or-tail/static/js/main.ebb3465e.chunk.js.map",
+    "runtime~main.js": "/react-head-or-tail/static/js/runtime~main.dcf31b9b.js",
+    "runtime~main.js.map": "/react-head-or-tail/static/js/runtime~main.dcf31b9b.js.map",
+    "static/css/2.3caf6944.chunk.css": "/react-head-or-tail/static/css/2.3caf6944.chunk.css",
+    "static/js/2.c39b9b5f.chunk.js": "/react-head-or-tail/static/js/2.c39b9b5f.chunk.js",
+    "static/js/2.c39b9b5f.chunk.js.map": "/react-head-or-tail/static/js/2.c39b9b5f.chunk.js.map",
+    "index.html": "/react-head-or-tail/index.html",
+    "precache-manifest.5229168aae2279c64b085a01023bd5fd.js": "/react-head-or-tail/precache-manifest.5229168aae2279c64b085a01023bd5fd.js",
+    "service-worker.js": "/react-head-or-tail/service-worker.js",
+    "static/css/2.3caf6944.chunk.css.map": "/react-head-or-tail/static/css/2.3caf6944.chunk.css.map",
+    "static/css/main.6f842b94.chunk.css.map": "/react-head-or-tail/static/css/main.6f842b94.chunk.css.map",
+    "static/media/1-lira-tura.png": "/react-head-or-tail/static/media/1-lira-tura.7c42669a.png",
+    "static/media/1-lira-yazi.png": "/react-head-or-tail/static/media/1-lira-yazi.9b70882e.png"
+  }
+}
